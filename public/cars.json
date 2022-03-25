@@ -2,64 +2,64 @@
     {
         "id": 1,
         "name": "Audi",
-        "price": 10000000,
+        "price": 2500000,
         "manufacture": "America",
         "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
     },
     {
         "id": 2,
         "name": "BMW",
-        "price": 20000000,
+        "price": 5500000,
         "manufacture": "Canada",
-        "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
+        "img": "https://img.freepik.com/free-photo/back-view-blue-sedan-road_114579-4057.jpg?size=626&ext=jpg&ga=GA1.2.2045842980.1645033529"
     },
     {
         "id": 3,
         "name": "Ferari",
-        "price": 30000000,
+        "price": 6500000,
         "manufacture": "Germany",
-        "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
+        "img": "https://img.freepik.com/free-photo/luxury-black-sport-coupe-parking-snowy-road-forest_114579-4018.jpg?w=740"
     },
     {
         "id": 4,
         "name": "Hyundai",
-        "price": 40000000,
+        "price": 3500000,
         "manufacture": "Korea",
-        "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
+        "img": "https://img.freepik.com/free-photo/sport-car-with-black-white-autotuning-driving-forest_114579-4076.jpg?size=626&ext=jpg&ga=GA1.2.2045842980.1645033529"
     },
     {
         "id": 5,
         "name": "Marcedes",
-        "price": 50000000,
-        "manufacture": "London",
-        "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
+        "price": 5500000,
+        "manufacture": "Germany",
+        "img": "https://img.freepik.com/free-photo/grey-metallic-jeep-with-blue-stripe-it_114579-4080.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
     },
     {
         "id": 6,
         "name": "Porshe",
-        "price": 60000000,
+        "price": 4500000,
         "manufacture": "Russia",
-        "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
+        "img": "https://img.freepik.com/free-photo/red-mini-coupe-parked-port_114579-5194.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
     },
     {
         "id": 7,
         "name": "Rolls Royce",
-        "price": 70000000,
-        "manufacture": "Spain",
+        "price": 8500000,
+        "manufacture": "London",
         "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
     },
     {
         "id": 8,
         "name": "Toyota",
-        "price": 8000000,
-        "manufacture": "United State",
+        "price": 3500000,
+        "manufacture": "Japan",
         "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
     },
     {
         "id": 9,
         "name": "Ford",
-        "price": 90000000,
-        "manufacture": "Japan",
-        "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?size=626&ext=jpg&ga=GA1.1.2045842980.1645033529"
+        "price": 7500000,
+        "manufacture": "America",
+        "img": "https://img.freepik.com/free-photo/black-american-sport-sedan-driving-road_114579-4046.jpg?size=626&ext=jpg&ga=GA1.2.2045842980.1645033529"
     }
 ]
