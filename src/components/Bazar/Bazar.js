@@ -35,6 +35,7 @@ const Bazar = () => {
 
                 </div>
                 <div className="choice-container">
+
                     <Choice choice={choice}></Choice>
 
                 </div>

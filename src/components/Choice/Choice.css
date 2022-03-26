@@ -4,9 +4,15 @@
 }
 .choice-info button{
     width: 100%;
-    background-color: blueviolet;
-    border: 1px solid skyblue;
+    color: white;
+    background-color: #41BF78;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 8px;
-    margin-top: 5px;
+    margin-top: 10px;
+}
+.choice-info button:hover{
+    color: #41BF78;
+    background-color: white;
+    border: 1px solid #41BF78;
 }
