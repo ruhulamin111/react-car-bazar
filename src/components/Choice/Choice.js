@@ -1,9 +1,25 @@
 import React from 'react';
+import './Choice.css'
 
-const Choice = () => {
+const Choice = (props) => {
+
+    const { choice } = props
+    let name = ''
+    for (const car of choice) {
+        name = car.name
+    }
+
+
     return (
-        <div>
-            <h3>Order List</h3>
+        <div className='choice'>
+            <h2>Order List</h2>
+            <div className="choice-info">
+                <p>{name}</p>
+                <button>Select One</button>
+                <button>Again Select</button>
+            </div>
+
+
 
         </div>
     );

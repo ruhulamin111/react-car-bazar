@@ -1,0 +1,12 @@
+.choice{
+    position: sticky;
+    top: 0;
+}
+.choice-info button{
+    width: 100%;
+    background-color: blueviolet;
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 5px;
+}

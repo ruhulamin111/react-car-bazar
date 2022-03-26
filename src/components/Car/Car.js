@@ -1,8 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Car.css'
 
-const Car = ({ car }) => {
-    const { name, img, price, manufacture, } = car;
+const Car = ({ car, addToChoice }) => {
+    const { name, img, price, manufacture } = car;
 
 
     return (
@@ -14,14 +16,15 @@ const Car = ({ car }) => {
                     <h4>Price:$ {price} </h4>
                     <h5>Manufacture: {manufacture} </h5>
                 </div>
-                <button className='btn-choice'>
+                <button onClick={() => addToChoice(car)} className='btn-choice'>
                     <p>Purchase</p>
+                    <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
                 </button>
 
             </div>
 
 
-        </div>
+        </div >
     );
 };
 

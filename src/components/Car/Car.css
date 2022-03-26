@@ -23,6 +23,12 @@
     bottom: 0;
     background-color:  #91B7D9;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-choice p{
+    margin-right: 10px;    
 }
 .btn-choice:hover{
     color: white;

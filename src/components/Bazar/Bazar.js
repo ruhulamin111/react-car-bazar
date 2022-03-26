@@ -7,11 +7,19 @@ const Bazar = () => {
 
     const [cars, setCars] = useState([])
 
+    const [choice, setChoice] = useState([])
+
     useEffect(() => {
         fetch('cars.json')
             .then(res => res.json())
             .then(data => setCars(data))
     }, [])
+
+    const addToChoice = (car) => {
+        const newChoice = [...choice, car]
+        setChoice(newChoice)
+
+    }
 
     return (
         <div>
@@ -21,12 +29,13 @@ const Bazar = () => {
                         cars.map(car => <Car
                             key={car.id}
                             car={car}
+                            addToChoice={addToChoice}
                         ></Car>)
                     }
 
                 </div>
                 <div className="choice-container">
-                    <Choice></Choice>
+                    <Choice choice={choice}></Choice>
 
                 </div>
             </div>
