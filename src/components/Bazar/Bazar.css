@@ -12,10 +12,22 @@
     color: white;
     background-color: #4973F2;
     padding: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:680px) {
     .car-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
+}
+
+.theory{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid skyblue;
+    border-radius: 20px;
+}
+.theory:hover{
+    background-color:bisque;
 }
