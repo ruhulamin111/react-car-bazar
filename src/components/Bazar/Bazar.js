@@ -4,9 +4,7 @@ import Choice from '../Choice/Choice';
 import './Bazar.css'
 
 const Bazar = () => {
-
     const [cars, setCars] = useState([])
-
     const [choice, setChoice] = useState([])
 
     useEffect(() => {
@@ -32,13 +30,11 @@ const Bazar = () => {
                             addToChoice={addToChoice}
                         ></Car>)
                     }
-
                 </div>
                 <div className="choice-container">
-
                     <Choice choice={choice}></Choice>
-
                 </div>
+
             </div>
 
         </div>

@@ -13,8 +13,9 @@
     background-color: #4973F2;
     padding: 10px;
 }
-@media screen and (max-width:480px) {
-    .car-container{
+
+@media screen and (max-width:960px) {
+    .car-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }

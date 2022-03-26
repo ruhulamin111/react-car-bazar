@@ -6,7 +6,6 @@ import './Car.css'
 const Car = ({ car, addToChoice }) => {
     const { name, img, price, manufacture } = car;
 
-
     return (
         <div>
             <div className="car">
@@ -20,9 +19,7 @@ const Car = ({ car, addToChoice }) => {
                     <p>Purchase</p>
                     <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
                 </button>
-
             </div>
-
 
         </div >
     );

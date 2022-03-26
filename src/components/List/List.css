@@ -1,0 +1,24 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list img{
+    width: 40%;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+.choice-info button{
+    width: 100%;
+    color: white;
+    background-color: #41BF78;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 10px;
+}
+.choice-info button:hover{
+    color: #41BF78;
+    background-color: white;
+    border: 1px solid #41BF78;
+}

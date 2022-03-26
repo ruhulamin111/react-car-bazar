@@ -1,0 +1,10 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list img{
+    width: 40%;
+    border-radius: 50px;
+    margin-right: 5px;
+}
